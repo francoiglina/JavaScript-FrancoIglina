@@ -1,0 +1,135 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+.header-container {
+  background-color: #343a40;
+}
+.header-container .header-brand {
+  height: auto;
+  width: 200px;
+}
+.header-container .navbar-user {
+  display: flex;
+  flex-direction: row;
+}
+.header-container .navbar-user .nav-link {
+  color: #DC3545;
+}
+
+/* Tienda */
+/* Header */
+.header-container {
+  background-color: #343a40;
+}
+.header-container .header-brand {
+  height: auto;
+  width: 200px;
+}
+.header-container .navbar-user {
+  display: flex;
+  flex-direction: row;
+}
+.header-container .navbar-user .nav-link {
+  color: #DC3545;
+}
+
+.tienda-container {
+  background-color: #E5E6E4;
+}
+.tienda-container h2 {
+  display: none;
+  text-align: center;
+  color: #DC3545;
+  padding: 10px;
+}
+.tienda-container .lista-tienda ul {
+  padding: 10px;
+  margin-bottom: 0px;
+}
+.tienda-container .lista-tienda ul li {
+  list-style: none;
+  background-color: #E5E6E4;
+  border: 1px solid #DC3545;
+  margin: 6px;
+  justify-content: center;
+}
+.tienda-container .lista-tienda ul li .image-producto {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tienda-container .lista-tienda ul li .titulo-producto {
+  text-align: center;
+  color: #DC3545;
+  font-weight: 500;
+}
+.tienda-container .lista-tienda ul li .precio-producto {
+  text-align: center;
+  color: #343a40;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  display: grid;
+  justify-content: space-evenly;
+  height: 250px;
+  background-color: #343a40;
+}
+footer .newsletter {
+  color: #E5E6E4;
+  grid-row: 1;
+  grid-column: 1/span 5;
+  padding: 10px;
+}
+footer .nav-footer {
+  color: #E5E6E4;
+  grid-row: 1;
+  grid-column: 4;
+  padding: 10px;
+}
+footer .nav-footer ul li {
+  text-align: center;
+  list-style: none;
+}
+footer .social {
+  grid-row: 1;
+  grid-column: 6;
+  padding: 10px;
+}
+footer .social h5 {
+  text-align: center;
+  color: #E5E6E4;
+}
+footer .social .social-buttons {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+footer .social .social-buttons li {
+  width: 40px;
+}
+footer .social .social-buttons li .fab {
+  color: #DC3545;
+}
+footer hr {
+  grid-row: 2;
+  grid-column: 1/span 6;
+  color: #E5E6E4;
+  width: 100%;
+}
+footer p {
+  color: #E5E6E4;
+  text-align: center;
+  grid-row: 3;
+  grid-column: 4;
+}
+
+/*# sourceMappingURL=style.css.map */

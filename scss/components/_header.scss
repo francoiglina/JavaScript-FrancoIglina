@@ -1,0 +1,21 @@
+/* Header */
+
+.header-container {
+
+    background-color: #343a40;
+
+    .header-brand{
+        height: auto;
+        width: 200px;
+    }
+
+    .navbar-user {
+        display: flex;
+        flex-direction: row;
+
+        .nav-link {
+            color: #DC3545;
+        }
+    }
+
+}
